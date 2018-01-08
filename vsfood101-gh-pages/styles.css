@@ -1,0 +1,117 @@
+/* Setting General styles for everything inside containers */
+
+body {
+  background-color: brown;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.container {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Setting General Styles for Navigation Menus */
+
+.nav {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.eh {
+  color:white
+}
+
+#a {
+  background-color: red;
+}
+#s {
+  text-align: center;
+}
+#e {
+  text-align: center;
+  float: right;
+}
+
+#v {
+  color:white;
+  float:right;
+}
+
+.nav ul {
+  text-align: right;
+}
+
+/* Setting General Styles for list items in the Navigation Menu */
+
+.nav li {
+    text-align: right;
+    display:inline;
+}
+
+/* Setting General Styles for Header */
+
+.header {
+    background-color:rgb(210, 171, 104);
+}
+
+
+/* Setting General Styles for Jumbotron/Main Cover/Splash Page */
+
+.jumbotron {
+    color:gray;
+    height:400px;
+    background: url("https://images.unsplash.com/31/RpgvvtYAQeqAIs1knERU_vegetables.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f7452e128d0aacc006adab4b43d46bc8") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+
+/* Setting General Styles for Main Class */
+
+.main {
+    text-align: center;
+}
+
+/* Setting General Styles for Section */
+
+.row {
+  background-color: rgba(172, 168, 196, 1);
+}
+
+.section {
+
+}
+
+/* Setting General Styles for col-md-4 */
+
+.col-md-4 {
+
+}
+
+/* Setting General Styles for col-md-8 */
+
+.col-md-8 {
+
+
+}
+
+/* Setting General Styles for Footer */
+
+.footer {
+    background-color: #333333;
+    padding: 30px 0;
+}
+
+/* Setting General Styles for Footer Heading */
+
+.footer h3 {
+    text-align: right;
+    color:white;
+}
